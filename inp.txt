@@ -1,0 +1,94 @@
+bring mathematics.h
+bring strings.h
+
+begin()
+{
+    ##This is the input part
+
+    ##sin(10);
+    int var, trigo;
+    var = 4;
+    ##var = 4*var+2;
+    var = 40000/10;
+    trigo=sin(10);
+    trigo=cos(10);
+    trigo=tan(10);
+    trigo=log10(10);
+    show(var);
+    var = 10;
+    float ab, da;
+	da = 4.5;
+	show(da);
+    ab = 6;
+    if(ab<var){
+        ab = ab*4;
+        show(ab);
+    }
+    nothingmatches{
+        ab = ab*10;
+        show(ab);
+    }
+    int aa;
+    read(aa);
+    aa = 100;
+    if(aa<=10){
+        show(aa);
+    }
+    elif(aa==20){
+        aa = 2*aa;
+        show(aa);
+    }
+    nothingmatches{
+        aa = 3*aa;
+        show(aa);
+    }
+    
+    exp(16,2);
+    random(16, 2);
+    keepgoing(5);
+    int ax, bx; 
+    ax= 33*ab;
+    bx= 40/2;
+    mini(ax, bx);
+    maxi(ax, bx);
+	isprime(29);
+	isprime(20);
+	fact(5);
+    int a1,b1,y,z;
+    y=1;
+    repeat 1 to 5 ++ 1
+    {
+        show(ax);
+    } 
+
+    repeat 5 to 1 -- 1
+    {
+        show(ax);
+    } 
+
+    char ff;
+    ##ff = |abcd|;
+    ##show(ff);
+    b1 = 30;
+    a1 = 20;
+    if ( a1 != b1 )
+    { 
+        if(a1>b1)
+        {
+           show(a1); 
+        }
+        nothingmatches
+        {
+            show(b1);
+        }
+    }
+	
+	ladder(z){
+		case 1 {
+			show(a1);
+		}
+		bydefault{
+			show(b1);
+		}
+	}
+}

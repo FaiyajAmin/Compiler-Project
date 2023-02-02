@@ -1,0 +1,94 @@
+bring mathematics.h
+bring strings.h
+
+begin()
+{
+    ##Body part of code begins here
+
+    float trigo;
+    trigo=sin(10);
+    trigo=cos(10);
+    trigo=tan(10);
+    trigo=log10(10);
+
+    int x;
+    x=17;
+    x=17*x+15;
+    show(x);
+
+    float aa, bb;
+    aa=5.5;
+    bb=10.10;
+    show(aa);
+    show(bb);
+
+
+    isprime(37);
+	isprime(20);
+
+	fact(5);
+    exp(2,3);
+    random(32668, 2);
+    int p, q; 
+    p= 1000/10;
+    q= 100*2;
+    mini(p, q);
+    maxi(p, q);
+	
+
+    int xyz;
+    read(xyz);
+    xyz = 9;
+    if(xyz<=10){
+        show(xyz);
+    }
+    elif(xyz==100){
+        xyz = xyz+10;
+        show(xyz);
+    }
+    nothingmatches{
+        xyz = xyz*5;
+        show(xyz);
+    }
+    
+    int z;
+    z=10;
+    repeat 1 to 5 ++ 1
+    {
+        show(z);
+    } 
+
+    repeat 5 to 1 -- 1
+    {
+        show(z);
+    } 
+
+    keepgoing(5);
+
+    int m, n, g;
+    n = 100;
+    m = 200;
+    g=2;
+
+	ladder(g){
+		case 1 {
+			show(m);
+		}
+        case 2 {
+			show(n);
+		}
+		bydefault{
+			show(g);
+		}
+	}
+
+    if ( m != n )
+    { 
+           show(m);
+    } 
+    nothingmatches
+    {
+        show(b1);
+    }
+    
+}
